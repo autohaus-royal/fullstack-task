@@ -1,26 +1,26 @@
-# fullstack-task
+# Autohaus Royal Fullstack Task
 
-Task
+Create a application that makes it possible to manage customer data. 
 
-Create an application that makes it possible to manage customer data. This application has the following features
+## Requested Features
 
-•	Customer data includes
-o	Last name
-o	First name
-o	Gender
-o	Street
-o	Postal code
-o	City
-•	Create customer:    All above data fields are mandatory
-•	Search customers:  For sake of simplicity only search last names
-•	Edit customer:         All data fields must be changeable
-•	Delete customers
+- Customer data includes
+  - Last name
+  -	First name
+  -	Gender
+  -	Street
+  -	Postal code
+  -	City
+- Create customer:    All above data fields are mandatory
+- Search customers:  For sake of simplicity only search last names
+- Edit customer:         All data fields must be changeable
+- Delete customers
 
-The application itself consists of a backend and a frontend. I recommend to implement both parts separately.
+The application consists of a backend part and a frontend part. We recommend to implement both parts separately.
 
-Backend Part
+## Backend Part
 
-The backend has to be implemented as a RESTful webservice which implements  the 4 CRUD operations.
+The backend has to be implemented as a RESTful webservice which implements the 4 CRUD operations.
 
 •	The backend has to be implemented in node.js using express.
 •	For persistent storage use  mongoDB 
